@@ -5,16 +5,15 @@ def app():
 
       st.title("Welcome to the about me page")    
     
-    st.header('Contact Us')
+      st.header('Contact Me')
 
-    st.markdown('''### Name:
-    Raiyan Firaz''')
+      st.markdown('''### Name:
+      Raiyan Firaz''')
 
-    st.markdown('''### Email:
-    raiyan1437@gmail.com''')
+      st.markdown('''### Email:
+      raiyan1437@gmail.com''')
 
-    st.markdown('''### GitHub: [Raiyan Firaz] (https://github.com/raiyan1437)''')
+      st.markdown('''### GitHub: [Raiyan Firaz] (https://github.com/raiyan1437)''')
 
-    # Add linkedin
-    st.markdown('''### Linkedin: [Raiyan Firaz] (https://www.linkedin.com/in/raiyan-firaz-490b38129)''')
+      st.markdown('''### Linkedin: [Raiyan Firaz] (https://www.linkedin.com/in/raiyan-firaz-490b38129)''')
 
