@@ -7,7 +7,7 @@ def app():
             Cat and Dog Classification By Raiyan Firaz
             """
              )
-    st.image("dog_pred.jpg")
+    st.image("cat_or_dog.jpg")
 
     st.markdown("""
         **To predict go to prediction page and uplode an image.** """)
