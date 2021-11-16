@@ -1,3 +1,4 @@
+<Doctype HTML>
 # Cat_Or_Dog_Prediction
 This Model Predicts whether it is a Cat Or Dog
 To Open View This App in Streamlit Click The Link Below
