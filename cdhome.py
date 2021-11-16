@@ -3,17 +3,17 @@ import streamlit as st
 
 def app():
 
-    st.title("""
+     st.title("""
             Cat Or Dog Prediction By Raiyan Firaz
             """
              )
-      st.markdown("""
+     st.markdown("""
         **To predict go to prediction page and uplode an image.** """)
 
-    st.write("""
-        **Github Repository and Source code is available on About page.**
+      st.write("""
+       **Github Repository and Source code is available on About page.**
             """)
     
-    st.image("cat_or_dog.jpg")
+      st.image("cat_or_dog.jpg")
 
 
