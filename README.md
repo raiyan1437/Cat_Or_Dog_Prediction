@@ -5,21 +5,18 @@
         <h1>Cat Or Dog Prediction</h1>
   </head>
        <div class="main-text">
-       <h1> This Model is Developed By Raiyan Firaz<br></h1>
+       <h1> This CNN Model is Developed By Raiyan Firaz<br></h1>
        <p> This Model Predicts whether it is a Cat Or Dog for image uploaded by user</p>
-       <a href="#" class="resume-btn">see my</a>
+       <p>This app is hosted on Streamlit</p>
+       <p> If you want to run this app on streamlit please click on the below button</p>
+       <a href="https://share.streamlit.io/raiyan1437/cat_or_dog_prediction/main/cdmain.py" class="resume-btn">RUN APP</a>
      </div> 
   <body>
    <section id="main">
-      <a href="#" class="logo", width=500>
+      <a href="#" class="logo", width=100>
         <img src="dog_pred.jpg">
    </section> 
 
   </body>
 </html>
-
-
-      
-       st.image("dog_pred.jpg", width=500)
-       st.write('To Open View This App in Streamlit Click The Link Below')
        https://share.streamlit.io/raiyan1437/cat_or_dog_prediction/main/cdmain.py
