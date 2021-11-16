@@ -16,4 +16,6 @@ def app():
       st.markdown('''### GitHub: [Raiyan Firaz] (https://github.com/raiyan1437)''')
 
       st.markdown('''### Linkedin: [Raiyan Firaz] (https://www.linkedin.com/in/raiyan-firaz-490b38129)''')
+      
+      st.markdown('''### Repository Link:[Github Repo] (https://github.com/raiyan1437/Cat_Or_Dog_Prediction)''')
 
