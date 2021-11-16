@@ -5,11 +5,11 @@ import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
 import keras.preprocessing
-from pages import home, prediction, about
+import cdhome, cdpred, cdabout
 pages = {
-    "Home": home,
-    "Prediction": prediction,
-    "About": about
+    "Home": cdhome,
+    "Prediction": cdpred,
+    "About": cdabout
 }
 
 
@@ -17,6 +17,6 @@ pages = {
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Pages", list(pages.keys()))
 if page == None:
-    home.app()
+    cdhome.app()
 else:
     pages[page].app()
