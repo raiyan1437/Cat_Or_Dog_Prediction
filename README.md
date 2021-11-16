@@ -13,7 +13,7 @@
   <body>
    <section id="main">
       <a href="#" class="logo", width="50" height="300">
-        <img src="dog_pred.jpg">
+        <img src="cat_or_dog.jpg">
    </section> 
 
   </body>
