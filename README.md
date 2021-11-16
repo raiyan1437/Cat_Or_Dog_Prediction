@@ -12,7 +12,7 @@
      </div> 
   <body>
    <section id="main">
-      <a href="#" class="logo", width=100>
+      <a href="#" class="logo", width="50" height="300">
         <img src="dog_pred.jpg">
    </section> 
 
