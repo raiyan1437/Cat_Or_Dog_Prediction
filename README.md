@@ -2,13 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Cat_Or_Dog_Prediction</title>
+      <title>
+        Cat_Or_Dog_Prediction
+      </title>
   </head>
   <body>
    <section id="main">
      <nav>
       <a href="#" class="logo">
-        <img src="build_logo.png" alt="the logo of project The Rock">
+        <img src="dog_pred.jpg">
        </a>
      
       <a href="#" class="hey"><strong>Say hi!</strong></a>
