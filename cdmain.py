@@ -1,4 +1,5 @@
-from model import load_model
+import keras.models
+from keras.models import load_model
 import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
