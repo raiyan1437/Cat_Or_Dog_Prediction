@@ -34,7 +34,7 @@ def app():
                     pred = "It's a DOG"
                 elif cnn[0][0] == 0:
                     pred = "It's a CAT"
-                else
+                else:
                     pred ="it is niether a cat nor a dog"
                 st.success(pred)
             except:
