@@ -32,10 +32,13 @@ def app():
                 cnn = model.predict(img)
                 if cnn[0][0] == 1:
                     pred = "It's a DOG"
+                    st.write(cnn[0][0])
                 elif cnn[0][0] == 0:
                     pred = "It's a CAT"
+                    st.write(cnn[0][0])
                 else:
                     pred ="it is niether a cat nor a dog"
+                    st.write(cnn[0][0])
                 st.success(pred)
             except:
                 st.error("Invalid Image Type For This Model")
