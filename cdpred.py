@@ -32,7 +32,7 @@ def app():
                 cnn = model.predict(img)
                 if cnn[0][0] == 1:
                     pred = "It's a DOG"
-                else if cnn[0][0] == 0:
+                elif cnn[0][0] == 0:
                     pred = "It's a CAT"
                 else
                     pred ="it is niether a cat nor a dog"
